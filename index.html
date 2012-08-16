@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
+  </head>
+  <body>
+    <div id='home'></div>
+    <div id='navbar' class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="nav-collapse">
+            <ul class="nav pull-right">
+              <li><a href='#contact'>צור קשר</a></li>
+              <li><a href='#about'>צביעות בצבע</a></li>
+              <li><a href='#education'>השכלה</a></li>
+              <li><a href='#publications'>פרסומים</a></li>
+              <li><a href='#exhibitions'>תערוכות</a></li>
+              <li class=""><a href='#work'>עבודות</a></li>
+              <li class='logo'>
+                <a href='#home'><img src='assets/img/navbar-logo.png'></a>
+              </li>
+            </ul>
+          </div><!-- /.nav-collapse -->
+        </div>
+      </div><!-- /navbar-inner -->
+    </div>
+
+    <img id='welcome' src='assets/img/welcome.jpg'>
+
+    <div id='work'>
+    </div>
+
+    <div class='bg row-fluid'>
+      <div class='span12'>
+        <div class='bgtop'></div>
+        <div class='info' id='exhibitions'>
+          <img class='heading' src='assets/img/h-taaruchot.png'>
+          <div class='row-fluid'>
+            <div class='span6 content'>
+              <script type="text/javascript">
+
+              function items(list) {
+                list.forEach(function(item) {
+                  if (item.year) {
+                    document.write('<h3>' + item.year.toString() + '</h3>');
+                  }
+
+                  if (item.title) {
+                    document.write('<h2>' + item.title + '</h2>');
+                  }
+
+                  if (item.desc) {
+                    item.desc.forEach(function(p) {
+                      document.write('<p>' + p + '</p>');
+                    })
+                  }
+                });
+              }
+
+              items([
+                {
+                  year: 2009,
+                  title: '"קשרים"',
+                  desc: [ 'קיבוץ גלויות 45, ת"א. אוצר: רון ישועה' ],
+                },
+                {
+                  year: 2008,
+                  title: '"פנים חדשות"',
+                  desc: [
+                    'גלריית קרקטר, פאריז. אוצר: רפי ברביבאי.',
+                    "גלריית President du Centre d'Art, פאריזץ אוצר: רפי ברביבאי",
+                  ],
+                },
+                {
+                  year: 2007,
+                   desc: [ '\"גלרית שטרן\", תל אביב. אוצרת: דבי לוזיה' ],
+                },
+                {
+                  year: 2004,
+                  desc: [ 'בית האומנים, ת"א. אוצרת: נעמי מילר' ],
+                },
+                {
+                  year: 2001,
+                  title: '"עדנה/אהובה/יפה"',
+                  desc: [ 'גלריה "גרוס", דיזינגוף סנטר, ת"א. אוצרת: נעמי שלו' ],
+                },
+              ]);
+
+              </script>
+            </div>
+            <div class='span6 content'>
+              <script type="text/javascript">
+              items([
+                {
+                  year: 2011,
+                  title: '"הקצה הפרימיטיבי של הקו"',
+                  desc: [ 'קיבוץ גלויות 45, ת"א. אוצרים: איריס גולדברג, ליאת פיש שדה, אליסון שר' ],
+                },
+
+                {
+                  title: '"הבנין הפעיל"',
+                  desc: [
+                    'אוהבים אומנות, קיבוץ גלויות 45, תל-אביב. אוצרת: רות עמידרור'
+                  ],
+                },
+
+                {
+                  year: 2010,
+                  title: '"שיתוק שינה"',
+                  desc: [ 'קיבוץ גלויות 45, תל-אביב. אוצרים: נועה ססיליה כהן, אורי גרון']
+                },
+
+                {
+                  title: '"משפחה כמו שלי, משפחות קצת שונות..."',
+                  desc: [ 'מיצב באודיטוריום מוזיאון אשדוד. אוצרת: בת-שבע גרניט' ],
+                },
+
+                {
+                  title: '"צבע טרי"',
+                  desc: [ 'נמל יפו, גלריה ארליך. אוצרת: שרה ארליך' ],
+                },
+              ]);
+              </script>
+            </div>
+          </div>
+        </div>
+        <div class='info' id='publications'>
+          <img class='heading' src='assets/img/h-pisrumim.png'>
+          <div class='row-fluid'>
+            <div class='span12'>
+              <ul>
+                <script type="text/javascript">
+
+                var mentions = [
+                  {
+                    where: '2011 | הארץ | גלריה',
+                    title: '"נרקיסים בביצה הישראלית"',
+                    content: [
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                    ],
+                    link: {
+                      title: 'לכתבה המלאה ב- ynet',
+                      href: 'http://ynet.co.il',
+                    },
+                  },
+
+
+                  {
+                    where: '2099 | בלו בלו | בלוה בלוה',
+                    title: '"כתובתרת 12345"',
+                    content: [
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                    ],
+                  },
+
+
+                  {
+                    where: '2099 | בלו בלו | בלוה בלוה',
+                    title: '"בלב לחידלגחכידגכןםוטדגכךלחידגכפןוקירכךלחקרך"',
+                    content: [
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                      '“זה זמן רב לא נעשה שימוש נבון ואפקטיבי באקווריומי הזכוכית המוצגים בדיזנגוף סנטר. החלל הטוטלי הזה הציבו מיה וכטל וגילה בן ישראל חללים קטנים: באחד דחסו צמר פלדה עוקצני, בשני דחסו טמפונים שבין רכות לקשיות, בין נקבי לזכרי, ואת השלישי מילאו בצמר-גפן, וכך כמו הפקירו את נשיותן לעיני כל באמצעות הניגוד שבין החומרים והמינים.',
+                    ],
+                  },
+                ];
+
+                function render_mention(m, i) {
+                  var s = '<li class="content" id="mention-'+i.toString()+'">';
+                  s += '<h3>';
+                  if (m.where) s += '<h3>' + m.where + '</h3>';
+                  if (m.title) s += '<h1>' + m.title + '</h1>';
+                  s += '<div class="publication">';
+                  if (m.content) {
+                    m.content.forEach(function(p) {
+                      s += '<p>' + p + '</p>';
+                    });
+                  }
+                  if (m.link) {
+                    s += '<p><a href="' + m.link.href + '">' + m.link.title + '</a></p>';
+                  }
+                  s += '</div>';
+
+                  s += '</li>';
+
+                  document.write(s);
+                }
+
+                mentions.forEach(render_mention);
+
+                var current_mention = -1;
+
+                function mention(index) {
+                  if (current_mention < 0 || current_mention >= mentions.length) return;
+                  return document.getElementById('mention-' + index);
+                }
+
+                function show_mention(new_mention) {
+                  var prev_mention = document.getElementById('prev-mention');
+                  var next_mention = document.getElementById('next-mention');
+
+                  if (current_mention !== -1) {
+                    mention(current_mention).style.display = 'none';
+                  }
+
+                  current_mention = new_mention;
+
+                  if (current_mention <= 0) {
+                    current_mention = 0;
+                    prev_mention.style.visibility = 'hidden';
+                  }
+                  else {
+                    prev_mention.style.visibility = '';
+                  }
+
+                  if (current_mention >= mentions.length - 1) {
+                    current_mention = mentions.length - 1;
+                    next_mention.style.visibility = 'hidden';
+                  }
+                  else {
+                    next_mention.style.visibility = '';
+                  }
+
+                  mention(current_mention).style.display = 'block';
+                }
+
+                function next_mention(e) {
+                  e.preventDefault();
+                  show_mention(current_mention + 1);
+                }
+
+                function prev_mention(e) {
+                  e.preventDefault();
+                  show_mention(current_mention - 1);
+                }
+
+                </script>
+              </ul>
+              <hr>
+              <div class='pub-navigation'>
+                <a class='prev' id='prev-mention'><img src='assets/img/arrow-right.png'> הקודם</a>
+                <a class='next' id='next-mention'>הבא <img src='assets/img/arrow-left.png'></a>
+                <script type='text/javascript'>
+                  var prev_mention_a = document.getElementById('prev-mention');
+                  var next_mention_a = document.getElementById('next-mention');
+                  prev_mention_a.onclick = prev_mention;
+                  next_mention_a.onclick = next_mention;
+                  show_mention(0);
+                </script>
+              </div>
+            </div>          
+          </div>
+        </div>
+        <div class='info' id='education'>
+          <img class='heading' src='assets/img/h-haskala.png'>
+          <div class='row-fluid'>
+            <div class='span12 content'>
+              <p>
+              <h3>2005-2007</h3>
+              <h2>בוגרת המדרשה לאומנות פלסטית "בית ברל"</h2>
+              </p>
+
+              <p>
+              <h3>2004-2005</h3>
+              <h2>ציור ורישום, בית ספר "בסיס"</h2>
+              </p>
+
+              <p>
+              <h3>1980</h3>
+              <h2>BA סיעוד, האוניברסיטה העברית, ירושלים</h2>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class='bgbottom' id='about'>
+          <div class='info summary'>
+            <img class='heading' src='assets/img/h-tzviut.png'>
+            <div class='row-fluid'>
+              <div class='span12 content'>
+                <p>
+                אני ממפה חלקים רעילים, מסוכנים, כואבים ומאיימים בעולמי הפנימי, ומבקשת לפרוש חלקים מהפנים שלי ושל האחר למול עיני, עד שנוכחותם הופכת תובענית ונטולת שקט ואין לי אלא "להקיא" את הפנים על גבי הבד. ואז, מתגברת מחאתה של ה"פרסונה" ומובילה את הצורך לייפות את הכאב. זהו שלב שבו אני נכבשת בידי צורך לכסות ולהסתיר את "הכיעור" האישי על ידי שכבות של צבע. בסופו של דבר אין ביכולתי להסתיר ולאיין הכול, ולכן מאופיינת עבודתי בדיאלקטיקה שבין הנסתר לגלוי.
+                </p>
+                <p>
+                הנסתר והגלוי, אצלי ואצל האחר, אצל הפרטים והחברה, מה שמוגדר כברור ומובחן אולם טומן בחובו מידת צביעות, שהינה חלק מהקיום האנושי המאופק, המהוגן והבורגני.
+                </p>
+                <p>
+                מכאן אני מבקשת ליצור, ושואלת האם ניתן ללכת מעבר לתובענות שלי כלפי עצמי וליצור משהו שאינו בהכרח יפה. כי מהו בכלל יפה? היופי לדעתי, מחביא בתוכו ועוטף סודות ונסתר. שאלה זו מכוונת אותי ליצור בפורמט גדול, המאפשר לי לבחון את הדברים תחת זכוכית מגדלת. 
+                </p>
+                <p>
+                סדרת הפרחים שלי נוצרה ברובה תוך התבוננות בטבע. הטבע עבר תהליכי חקירה וחפירה "הפרחים" הינם בעלי אלמנטים של האנשה ולמרביתם "רעילות" מסויימת, המבטאת את המתח שבין מה שנידמה יפה למה שהוא הרסני. לעתים קרובות יש בין חלקי הפרח ייצוגים כאלה ואחרים של אברים פנימיים אנושיים וכן אברי רבייה. הגדלת הפרחים מעצימה תחושה של מציאות ספק תוקפנית ומאיימת, ספק יפה. זו תחושה שמלווה אותי בתהליך היצירה ומאפיינת את ראיית העולם שלי. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class='contact' id='contact'>
+        <img src='assets/img/footer-logo.png'>
+        <div class='contact-text'>
+          <p>
+          קיבוץ גלויות 45 (קומה 4, סטודיו 212), ת"א<br/>
+          Kibutz Galuiot 45 (4th Floor, Studio 212) Tel Aviv<br/>
+          052-4442236 | <a href='mailto:ben-i@zahav.net.il'>ben-i@zahav.net.il</a><br/>
+          <a href='www.gilabenisrael.com'>www.gilabenisrael.com</a> | <a href='http://www.kg45tlv.com'>http://www.kg45tlv.com</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script id='tmpl-work' type='text/template'>
+      <div class='row-fluid work'>
+        <img>
+        <div class='desc'></div>
+        <!--<a class='next'>Next</a>
+        <a class='prev'>Prev</a>-->
+      </div>
+    </script>
+  
+    <script src='assets/js/jquery.js'></script>
+    <script src='assets/js/bootstrap.js'></script>
+    <script src='assets/js/index.js'></script>
+
+  </body>
+</html>
