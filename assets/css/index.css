@@ -24,6 +24,11 @@ body {
   text-align: center;
 }
 
+.work-grp {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 #work {
   margin-top: 200px;
   margin-bottom: 200px;
