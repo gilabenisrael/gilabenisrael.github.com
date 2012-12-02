@@ -1,4 +1,4 @@
-$(function() {
+﻿$(function() {
   var drawings = [
     [
       {
@@ -16,6 +16,10 @@ $(function() {
       {
         name: 'drawing4',
         desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
+      },
+      {
+        name: 'exhibition1',
+        desc: 'מיצג ל"נושמים בטון"'
       },
       {
         name: 'drawing5',
