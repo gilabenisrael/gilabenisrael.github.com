@@ -36,7 +36,10 @@
 	  
     ],
     [
-      { name: 'GilaBigDarwings-2' },
+      { 
+	    name: 'GilaBigDarwings-2',
+	    desc: 'ללא כותרת, 2007, אקריליק על בד, 100*100 ס"מ'
+	  },
       { name: 'GilaBigDarwings-3' },
       { name: 'GilaBigDarwings-4' },
       { name: 'GilaBigDarwings-5' },
