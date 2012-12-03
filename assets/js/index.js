@@ -56,7 +56,6 @@
       { name: 'GilaBigDarwings-23' },
       { name: 'GilaBigDarwings-24' },
       { name: 'GilaBigDarwings-25' },
-	  { name: 'GilaBigDarwings-26' },
       { name: 'GilaSmallDrawings-1' },
       { name: 'GilaSmallDrawings-10' },
       { name: 'GilaSmallDrawings-11' },
