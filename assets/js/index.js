@@ -29,10 +29,7 @@
         name: 'drawing20',
         desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
       },
-	  {
-        name: 'gilabigdrawings-26',
-        desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
-      },
+	  
     ],
     [
       { name: 'GilaBigDarwings-2' },
