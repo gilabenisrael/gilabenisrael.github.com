@@ -30,19 +30,27 @@
         desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
       },
 	  {
-        name: 'drawing5',
+        name: 'GilaBigDarwings-27',
         desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
       },
 	  {
-        name: 'drawing5',
+        name: 'GilaBigDarwings-28',
         desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
       },
 	  {
-        name: 'drawing5',
+        name: 'GilaBigDarwings-29',
         desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
       },
 	  {
-        name: 'drawing5',
+        name: 'GilaBigDarwings-30',
+        desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
+      },
+	  {
+        name: 'GilaBigDarwings-31',
+        desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
+      },
+	  {
+        name: 'GilaBigDarwings-32',
         desc: 'ללא כותרת, 2007, אקריליק על בד, 150*160 ס"מ'
       },
 	  {
