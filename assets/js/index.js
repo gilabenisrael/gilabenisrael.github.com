@@ -86,6 +86,16 @@
 	  { name: 'GilaSmallDrawings-1' },
       { name: 'GilaSmallDrawings-10' },
       { name: 'GilaSmallDrawings-11' },
+	  { name: '20X20-1' },
+      { name: '20X20-2' },
+      { name: '20X20-3' },
+      { name: '20X20-4' },
+      { name: '20X20-5' },
+      { name: '20X20-6' },
+      { name: '20X20-7' },
+      { name: '20X20-8' },
+      { name: '20X20-9' },
+      { name: '20X20-10' },
     ],
     [	
       {
