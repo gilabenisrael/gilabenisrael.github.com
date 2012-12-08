@@ -70,9 +70,7 @@
       { name: 'GilaBigDarwings-26' },
       { name: 'GilaBigDarwings-27' },
       { name: 'GilaBigDarwings-33' },
-      { name: 'GilaSmallDrawings-1' },
-      { name: 'GilaSmallDrawings-10' },
-      { name: 'GilaSmallDrawings-11' },
+     
     ],
     [
       { name: 'GilaSmallDrawings-12' },
@@ -85,6 +83,9 @@
       { name: 'GilaSmallDrawings-7' },
       { name: 'GilaSmallDrawings-8' },
       { name: 'GilaSmallDrawings-9' },
+	  { name: 'GilaSmallDrawings-1' },
+      { name: 'GilaSmallDrawings-10' },
+      { name: 'GilaSmallDrawings-11' },
     ],
     [	
       {
