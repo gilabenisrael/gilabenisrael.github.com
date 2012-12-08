@@ -157,14 +157,22 @@
 	  },
     ],
     [
-      { name: 'GilaBigDarwings-20' },
-      { name: 'GilaBigDarwings-21' },
-      { name: 'GilaBigDarwings-22' },
-      { name: 'GilaBigDarwings-23' },
-      { name: 'GilaBigDarwings-24' },
-      { name: 'GilaBigDarwings-26' },
-      { name: 'GilaBigDarwings-27' },
-      { name: 'GilaBigDarwings-33' },   
+      { name: '150X170-1',
+        desc: 'ללא כותרת, 2007, אקריליק על בד, 150*170 ס"מ'
+	  },
+      { name: '180X150-1',
+        desc: 'ללא כותרת, 2007, אקריליק על בד, 180*150 ס"מ'
+	  },
+      { name: '180X150-2',
+        desc: 'ללא כותרת, 2007, אקריליק על בד, 180*150 ס"מ'
+	  },
+      { name: '200X210-1,
+	    desc: 'ללא כותרת, 2007, אקריליק על בד, 200*210 ס"מ'
+	  ' },
+      { name: '210X150-1',
+        desc: 'ללא כותרת, 2007, אקריליק על בד, 210*150 ס"מ'
+	  },
+      
     ],
     [
       { name: '30X30-1' },
