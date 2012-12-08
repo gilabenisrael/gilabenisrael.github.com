@@ -69,14 +69,12 @@
       { name: 'GilaBigDarwings-24' },
       { name: 'GilaBigDarwings-26' },
       { name: 'GilaBigDarwings-27' },
-      { name: 'GilaBigDarwings-33' },
-     
+      { name: 'GilaBigDarwings-33' },   
     ],
     [
       { name: '30X30-1' },
       { name: '30X30-2' },
-      { name: '30X30-3' },
-	  
+      { name: '30X30-3' },  
 	],
     [
       { name: '40X40-1' },
