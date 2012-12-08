@@ -73,19 +73,22 @@
      
     ],
     [
-      { name: 'GilaSmallDrawings-12' },
-      { name: 'GilaSmallDrawings-13' },
-      { name: 'GilaSmallDrawings-2' },
-      { name: 'GilaSmallDrawings-3' },
-      { name: 'GilaSmallDrawings-4' },
-      { name: 'GilaSmallDrawings-5' },
-      { name: 'GilaSmallDrawings-6' },
-      { name: 'GilaSmallDrawings-7' },
-      { name: 'GilaSmallDrawings-8' },
-      { name: 'GilaSmallDrawings-9' },
-	  { name: 'GilaSmallDrawings-1' },
-      { name: 'GilaSmallDrawings-10' },
-      { name: 'GilaSmallDrawings-11' },
+      { name: '30X30-1' },
+      { name: '30X30-2' },
+      { name: '30X30-3' },
+	  
+	],
+    [
+      { name: '40X40-1' },
+      { name: '40X40-2' },
+      { name: '40X40-3' },
+      { name: '40X40-4' },
+      { name: '40X40-5' },
+      { name: '40X40-6' },
+      { name: '40X40-7' },
+	    
+	],
+    [
 	  { name: '20X20-1' },
       { name: '20X20-2' },
       { name: '20X20-3' },
